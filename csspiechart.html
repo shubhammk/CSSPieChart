@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<style>
+			.pie-slice{
+				position:absolute;
+				margin-left: 20%;
+				margin-top: 10%;
+				width:160px;
+				height:160px;
+				box-shadow:inset 0px 0px 10px #000;
+				border:1px solid #000;
+				line-height:160px;
+ 			    font-weight: bold;
+				font-family: verdana;
+				font-size: 1.5em;
+				text-align:center;
+				text-shadow: 1px 1px #ffef96;
+			}
+
+			.pie-slice:nth-child(1){
+				background-color:#ffcce6;
+				border-top-left-radius:160px;
+			}
+
+			.pie-slice:nth-child(2){
+				background-color:#99ff99;
+				border-top-right-radius:160px;
+				left:175px;
+				width:155px;
+				height:155px;
+			}
+
+			.pie-slice:nth-child(3){
+				background-color:#ffffe6;
+				border-bottom-left-radius:160px;
+				top:170px;
+			}
+
+			.pie-slice:nth-child(4){
+				background-color:#b3daff;
+				left:170px;
+			  top:170px;
+			  border-bottom-right-radius:160px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="pie-slice">A</div>
+		<div class="pie-slice">B</div>
+		<div class="pie-slice">C</div>
+		<div class="pie-slice">D</div>
+	</body> 
+</html>
